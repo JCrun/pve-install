@@ -25,7 +25,13 @@ apt install wget curl sudo git screen nano iptables-persistent iptables redis-se
 ```
 
  **2.一键自动化安装脚本**
-```bash install-pve.sh
+```bash https://github.com/Xiaolqy/pve-install/releases/download/untagged-7b080dff48dbf2e9c445/install-pve.sh
 ```
+或者
+```自行在发布页面下载文件
+执行install-pve.sh
+然后就没了
+```
+
 **3.最后登录面板**
 这里我也不多讲了
