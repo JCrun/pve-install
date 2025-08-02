@@ -1,6 +1,6 @@
-# PVE 一键脚本
+# PVE 一键安装脚本
 
-本教程将指导你如何使用一键脚本快速安装 **Proxmox VE (PVE)**，适用于 **物理服务器/裸机**（通常基于 Debian 11/12）。  
+本工具将指导你如何使用一键脚本快速安装 **Proxmox VE (PVE)**，适用于 **物理服务器/裸机**（通常基于 Debian 11/12）。  
 ⚠️ 注意：PVE 需要安装在 **物理机** 或 **支持虚拟化的虚拟机** 上，且需 **UEFI 启动模式** 和 **直接访问物理磁盘**。
 
 ---
@@ -27,8 +27,7 @@ apt install wget curl sudo git screen nano iptables-persistent iptables redis-se
  **2.一键自动化安装脚本**
  
  ```
-
-bash https://raw.githubusercontent.com/Xiaolqy/pve-install/main/install-pve.sh
+bash <(curl -sL https://raw.githubusercontent.com/Xiaolqy/pve-install/main/install-pve.sh)
  ```
 或者
 ```自行在发布页面下载文件
