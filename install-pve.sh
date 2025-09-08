@@ -96,6 +96,10 @@ function check_debian_version() {
             PVE_VERSION="8"
             log_info "检测到 Debian 12 (Bookworm)，将准备安装 PVE $PVE_VERSION"
             ;;
+        trixie)
+            PVE_VERSION="9"
+            log_info "检测到 Debian 13 (Trixie)，将准备安装 PVE $PVE_VERSION"
+            ;;
         *)
             log_error "不支持的 Debian 版本: $DEBIAN_CODENAME (仅支持 bullseye 和 bookworm)"
             exit 1
